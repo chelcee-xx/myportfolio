@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/* @import url('Clash Display.css'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "ClashDisplay";
+    src: url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.woff2") format("woff2"),
+      url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.woff") format("woff"),
+      url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf") format("truetype");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title{
+  @apply font-sans font-bold text-[#3F4756] text-4xl mb-8
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 45%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+
+
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 45% 45%
 }
