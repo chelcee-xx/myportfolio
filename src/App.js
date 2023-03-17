@@ -65,8 +65,9 @@ function App() {
       <Skills />
       <Projects/>
       <Experience />
-      <Contact />
       <Footer />
+      <Contact />
+      
       {/* // My skills should be in animate progress bar, link should be under title 
        "Don't be a stranger" with fine big animated on hover icons 
        contact me should be title "connect with me" and then an input with EMail and message iono how that would work but dw
