@@ -3,9 +3,9 @@ import Card from "../components/Card";
 
 export default function Experience() {
   return (
-    <div className="px-20 bg-light">
+    <div className="px-6 sm:px-10 md:px-20 bg-light">
       <h1 className="title">Experience</h1>
-      <div className="grid gap-y-12 gap-x-5 grid-cols-2">
+      <div className="grid gap-y-12 gap-x-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <Card
           title="Tech support specialist"
           company="Primly premium solutions"
@@ -15,7 +15,6 @@ set up equipment for employee use, performed and ensured proper installation of 
 operating systems and appropriate software.
 Developed training materials and procedure and train users in proper use of hardware and 
 software."
-
         />
         <Card
           title="Frontend developer"

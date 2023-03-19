@@ -74,7 +74,7 @@ const projects = [
 
 const App = () => {
   return (
-    <div className="px-20 mb-12">
+    <div className="mb-4">
       <h1 className="title">My Projects</h1>
       <Carousel projects={projects} />
     </div>

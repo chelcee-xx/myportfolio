@@ -41,24 +41,22 @@ export default function Footer() {
 
   return (
     <div className="mt-12 flex flex-col items-center">
-      <div className=" w-1/2 bg-gray-200 font-medium  font-sans mb-9 pt-7 pb-5 px-16">
+      <div className="w-full md:w-1/2 bg-gray-200 font-medium font-sans mb-9 pt-7 pb-5 px-6 md:px-16">
         <h2 className="mb-2 text-3xl text-blue">Want to work with me?</h2>
-        <p className="mb-7 text-xl">Reach out throught this form:</p>
-        <form className=" text-xl mx-auto" onSubmit={handleSubmit}>
+        <p className="mb-7 text-xl">Reach out through this form:</p>
+        <form className="text-xl mx-auto" onSubmit={handleSubmit}>
           <div className="mb-4">
-           
             <input
               type="text"
               id="name"
               name="name"
-              className=" w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
               value={name}
               onChange={handleChange}
               placeholder="Name"
             />
           </div>
           <div className="mb-4">
-            
             <input
               type="email"
               id="email"
@@ -70,12 +68,11 @@ export default function Footer() {
             />
           </div>
           <div className="mb-4">
-           
             <textarea
               id="message"
               name="message"
               rows={9}
-              className="w-full  px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
               onChange={handleChange}
               value={message}
               placeholder="Message"
