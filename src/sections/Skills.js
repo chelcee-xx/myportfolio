@@ -58,7 +58,8 @@ export default function Skills() {
           </h3>
         </div>
       </div>
-      <div className="lg:hidden px-12">
+      <div className="lg:hidden md:hidden px-12">
+      <h1 className="title lg:ml-0 ml-12">My skills</h1>
         <div className="">
           <h3 className=" text-xl leading-9 mt-4 font-medium">HTML & CSS</h3>
           <Progress percent={90} />
