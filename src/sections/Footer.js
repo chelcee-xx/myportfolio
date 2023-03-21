@@ -40,7 +40,7 @@ export default function Footer() {
   const { name, email, message } = data;
 
   return (
-    <div className="mt-12 flex flex-col items-center">
+    <div className="mt-12 px-8 flex flex-col items-center">
       <div className="w-full md:w-1/2 bg-gray-200 font-medium font-sans mb-9 pt-7 pb-5 px-6 md:px-16">
         <h2 className="mb-2 text-3xl text-blue">Want to work with me?</h2>
         <p className="mb-7 text-xl">Reach out through this form:</p>

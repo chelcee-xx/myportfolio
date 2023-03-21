@@ -1,13 +1,17 @@
 import React from "react";
 import Card from "../components/Card";
+import ull from "../img/ullweb.jfif";
+import orange from "../img/logo.svg";
+import pps from "../img/Primly Premium Logo.png";
 
 export default function Experience() {
   return (
-    <div className="px-6 sm:px-10 md:px-20 bg-light">
-      <h1 className="title">Experience</h1>
-      <div className="grid gap-y-12 gap-x-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+    <div className="px-4 sm:px-10 md:px-20 bg-light">
+      <h1 className="title ml-6 lg:ml-0">Experience</h1>
+      <div className="grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-x-10 ">
         <Card
           title="Tech support specialist"
+          img={pps}
           company="Primly premium solutions"
           date="Jan. 2022 - Dec. 2022"
           desc="I oversaw daily performance of computer systems,
@@ -18,6 +22,7 @@ software."
         />
         <Card
           title="Frontend developer"
+          img={ull}
           company="ULLWeb technologies"
           date="Jul. 2022 - Sep. 2022"
           desc="Collaborated with a specialized team of software developers and designers to help 
@@ -28,6 +33,7 @@ web applications."
         />
         <Card
           title="Frontend developer"
+          img={orange}
           company="Orange Market"
           date="Dec. 2022 - Feb. 2023"
           desc="Collaborated with a UI designer to develop the UI of an admin dashboard.

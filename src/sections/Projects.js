@@ -8,6 +8,7 @@ import Indigo from "../img/indigo.png";
 import Recipe from "../img/recipe.png";
 import Weather from "../img/weather.png";
 import orange from "../img/orange.png";
+import Card from "../components/Card";
 
 const projects = [
   {
@@ -74,9 +75,19 @@ const projects = [
 
 const App = () => {
   return (
-    <div className="mb-4">
+    <div>
+    <div className="mb-4 px-20 hidden lg:block">
       <h1 className="title">My Projects</h1>
       <Carousel projects={projects} />
+    </div>
+    <div className="visible px-12 lg:hidden">
+    <h1 className="title ml-2">My Projects</h1>
+      {projects.map((project)=>(
+        <Card img={project.img}
+        title={project.title}
+        desc={project.description}/>
+      ))}
+    </div>
     </div>
   );
 };

@@ -3,11 +3,11 @@ import { Icon } from "@iconify/react";
 
 const Education = () => {
   return (
-    <div className="bg-gradient-to-b from-[#1190EF] to-[#00BBFA] pt-8 lg:pt-12 px-4 md:px-10 lg:px-20">
-      <div className="relative">
+    <div className="bg-gradient-to-b from-[#1190EF] to-[#00BBFA] pt-8 lg:pt-12 px-10 md:px-10">
+      <div className="relative lg:px-20">
         <Icon
           icon="noto:graduation-cap"
-          className="absolute bottom-3 -left-9 -rotate-45 text-4xl sm:text-5xl lg:text-6xl"
+          className="absolute bottom-3 lg:left-11 -left-5 -rotate-45 text-4xl sm:text-5xl lg:text-6xl"
         />
         <h1 className="text-3xl sm:text-4xl lg:text-4xl text-[#232d41] font-sans font-bold">
           Education

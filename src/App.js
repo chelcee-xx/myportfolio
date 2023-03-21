@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="font-body">
-      <div className="bg-gradient-to-b from-[#1190EF] to-[#00BBFA] min-h-screen pt-12 sm:pt-20 lg:pt-24 px-4 sm:px-12 lg:px-8">
+      <div className="bg-gradient-to-b from-[#1190EF] to-[#00BBFA] min-h-screen pt-12 px-12 lg:px-20 ">
         <nav className="flex justify-between">
           <h1 className="font-title text-light text-3xl sm:text-4xl lg:text-5xl mb-5">
             Medeh Chelsea
@@ -65,12 +65,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-light px-4 sm:px-6 lg:px-8 py-12">
+      <div className="bg-light px-4 sm:px-6 lg:px-20 py-12">
         <About />
       </div>
       <Education />
-      <Skills />
       <Projects />
+
+      <Skills />
       <Experience />
       <Footer />
       <Contact />
