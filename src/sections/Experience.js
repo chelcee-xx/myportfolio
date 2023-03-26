@@ -7,7 +7,7 @@ import pps from "../img/Primly Premium Logo.png";
 export default function Experience() {
   return (
     <div className="px-4 sm:px-10 md:px-20 bg-light">
-      <h1 className="title ml-6 lg:ml-0">Experience</h1>
+      <h1 className="title">Experience</h1>
       <div className="grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-x-10 ">
         <Card
           title="Tech support specialist"

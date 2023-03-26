@@ -17,7 +17,7 @@
 }
 
 .title{
-  @apply font-sans font-bold text-[#3F4756] text-4xl mb-8
+  @apply font-sans font-bold text-[#3F4756] lg:text-4xl text-7xl mb-8
 }
 
 .link-underline {
