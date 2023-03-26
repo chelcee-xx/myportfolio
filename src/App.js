@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="font-body">
-      <div className="bg-gradient-to-b from-[#1190EF] to-[#00BBFA] min-h-screen pt-12 px-12 lg:px-20 ">
+      <div className="bg-gradient-to-b from-[#1190EF] to-[#00BBFA] lg:h-screen pt-12 px-12 lg:px-20 ">
         <nav className="flex justify-between">
           <h1 className="font-title text-light text-3xl sm:text-4xl lg:text-5xl mb-5">
             Medeh Chelsea
@@ -51,16 +51,16 @@ function App() {
             </p>
             <button
               onClick={onButtonClick}
-              className="px-4 mb-5 py-3 md:mt-1 mt-8 text-blue bg-light font-medium rounded-full tracking-wide hover:text-light hover:bg-head transition-all duration-500"
+              className="px-4 mb-12 py-3 md:mt-1 mt-8 text-blue bg-light font-medium rounded-full tracking-wide hover:text-light hover:bg-head transition-all duration-500"
             >
               Download my resume
             </button>
           </div>
-          <div>
+          <div className="flex justify-center mt-8">
             <img
               src={girl}
               alt="tech"
-              className="w-full lg:w-auto h-auto"
+              className="w-1/2 lg:w-auto h-auto"
             />
           </div>
         </div>

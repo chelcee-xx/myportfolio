@@ -9,7 +9,9 @@ export default function Card(props) {
             <h1 className="text-blue mb-1 text-2xl font-medium">
               {props.company}
             </h1>
-            <img src={props.img} alt="project" className="lg:h-40 cursor-pointer object-contain w-full"/>
+            <div>
+            <img src={props.img} alt="project" className="lg:h-40 h-60 cursor-pointer object-contain w-full"/>
+           </div>
             <p className="text-[#3F4756] text-xl font-medium">{props.title}</p>
             <p className="text-[#3F4756] mb-4 font-medium">{props.date}</p>
           </div>

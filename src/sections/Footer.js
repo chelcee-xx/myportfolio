@@ -40,8 +40,8 @@ export default function Footer() {
   const { name, email, message } = data;
 
   return (
-    <div className="mt-12 px-8 flex flex-col items-center">
-      <div className="w-full md:w-1/2 bg-gray-200 font-medium font-sans mb-9 pt-7 pb-5 px-6 md:px-16">
+    <div className="mt-12 md:px-28 px-8 flex flex-col items-center">
+      <div className="w-full lg:w-1/2 rounded-lg bg-gray-200 font-medium font-sans mb-9 pt-7 pb-5 px-6 md:px-16">
         <h2 className="mb-2 text-3xl text-blue">Want to work with me?</h2>
         <p className="mb-7 text-xl">Reach out through this form:</p>
         <form className="text-xl mx-auto" onSubmit={handleSubmit}>
@@ -80,7 +80,7 @@ export default function Footer() {
           </div>
           <button
             type="submit"
-            className="w-full py-2 text-gray-700 bg-blue rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className="w-full md:my-6 py-2 text-gray-700 bg-blue rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
             Submit
           </button>
