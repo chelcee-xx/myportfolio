@@ -15,7 +15,7 @@ export default function Card(props) {
             <p className="text-[#3F4756] text-xl font-medium">{props.title}</p>
             <p className="text-[#3F4756] mb-4 font-medium">{props.date}</p>
           </div>
-          <p className="font-medium text-[#3F4756] lg:text-justify">
+          <p className="font-medium text-[#3F4756] text-4xl lg:text-xl lg:text-justify">
             {props.desc}
           </p>
         </div>

@@ -43,15 +43,15 @@ function App() {
         </nav>
         <div className="items-center flex flex-col-reverse lg:flex-row">
           <div className="w-full flex items-center flex-col lg:block lg:w-3/5 mr-0 lg:mr-16">
-            <p className="text-light font-semibold text-xl sm:text-2xl lg:text-4xl mb-5">
+            <p className="text-light font-semibold text-4xl mb-5">
               Hello, I'm Chelsea,
             </p>
-            <p className="text-light tracking-wide leading-9 text-md sm:text-lg lg:text-xl mb-6">
+            <p className="text-light tracking-wide leading-9 text-3xl lg:text-2xl mb-6">
               Frontend web developer
             </p>
             <button
               onClick={onButtonClick}
-              className="px-4 mb-12 py-3 md:mt-1 mt-8 text-blue bg-light font-medium rounded-full tracking-wide hover:text-light hover:bg-head transition-all duration-500"
+              className="px-4 mb-12 text-xl py-3 md:mt-1 mt-8 text-blue bg-light font-medium rounded-full tracking-wide hover:text-light hover:bg-head transition-all duration-500"
             >
               Download my resume
             </button>
@@ -65,7 +65,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-light px-4 sm:px-6 lg:px-20 py-12">
+      <div className="bg-light px-4 lg:px-20 py-12">
         <About />
       </div>
       <Education />

@@ -14,7 +14,7 @@ function Contact() {
       <p className="text-center text-light mb-9 text-lg px-6 md:px-20">
         Reach out to me on my social media handles below:
       </p>
-      <div className="flex lg:flex-row flex-col justify-center items-center gap-8 px-6 md:px-20">
+      <div className="flex flex-row justify-center items-center gap-8 px-6 md:px-20">
         <button className="rounded-full p-2 bg-white flex items-center">
           <Icon
             icon="mdi:twitter"

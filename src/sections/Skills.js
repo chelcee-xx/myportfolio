@@ -20,87 +20,77 @@ export default function Skills() {
       <div className="mt-12 lg:px-12 lg:grid-cols-6 text-center md:grid lg:grid md:grid-cols-3 md:gap-14 gap-8 px-8 lg:gap-12">
         <div className="">
           <div>
-          <img className="w-full" src={html} alt="logo" />
-
+            <img className="w-full" src={html} alt="logo" />
           </div>
-          <h3 className=" text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className=" text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             HTML
           </h3>
         </div>
         <div className="">
           <div>
-          <img className="w-full" src={css} alt="logo" />
-
+            <img className="w-full" src={css} alt="logo" />
           </div>
-          <h3 className=" text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className=" text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             CSS
           </h3>
         </div>
         <div className="">
           <div>
-          <img className="w-full" src={javascript} alt="logo" />
-
+            <img className="w-full" src={javascript} alt="logo" />
           </div>
-          <h3 className="text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className="text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             Javascript
           </h3>
         </div>
         <div className="">
           <div>
-          <img className="w-full" src={react} alt="logo"/>
-
+            <img className="w-full" src={react} alt="logo" />
           </div>
-          <h3 className="text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className="text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             ReactJs
           </h3>
         </div>
         <div className="">
           <div>
-          <img className="w-full" src={nextjs} alt="logo" />
-
+            <img className="w-full" src={nextjs} alt="logo" />
           </div>
-          <h3 className="text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className="text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             NextJs
           </h3>
         </div>
         <div className="">
           <div>
-          <img className="w-full" src={firebase} alt="logo" />
-
+            <img className="w-full" src={firebase} alt="logo" />
           </div>
-          <h3 className="text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className="text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             Firebase
           </h3>
         </div>
         <div className="">
           <div>
-          <img className="w-full" src={bootstrap} alt="logo" />
-
+            <img className="w-full" src={bootstrap} alt="logo" />
           </div>
-          <h3 className="text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className="text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             Bootstrap
           </h3>
         </div>
         <div className="">
           <div>
-          <img className="w-full" src={TailwindCss} alt="logo" />
-
+            <img className="w-full" src={TailwindCss} alt="logo" />
           </div>
-          <h3 className="text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className="text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             TailwindCss
           </h3>
         </div>
         <div className="">
           <div>
-          <img className="w-full" src={typescript} alt="logo" />
-
+            <img className="w-full" src={typescript} alt="logo" />
           </div>
-          <h3 className="text-md lg:text-xl  leading-9 text-blue mt-4 font-medium">
+          <h3 className="text-md lg:text-xl text-4xl  leading-9 text-blue mt-4 font-medium">
             Typescript
           </h3>
         </div>
       </div>
-     
     </div>
   );
 }

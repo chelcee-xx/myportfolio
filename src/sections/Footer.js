@@ -6,6 +6,7 @@ export default function Footer() {
     email: "",
     message: "",
   });
+  const [text, setText] = useState("")
 
   const handleChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
@@ -32,6 +33,7 @@ export default function Footer() {
       .then((response) => {
         response.text();
         setData({ name: "", email: "", message: "" });
+        setText("Message sent successfully")
       })
       // .then((result) => console.log(result))
       .catch((error) => console.log("error", error));
@@ -42,9 +44,9 @@ export default function Footer() {
   return (
     <div className="mt-12 md:px-28 px-8 flex flex-col items-center">
       <div className="w-full lg:w-1/2 rounded-lg bg-gray-200 font-medium font-sans mb-9 pt-7 pb-5 px-6 md:px-16">
-        <h2 className="mb-2 text-3xl text-blue">Want to work with me?</h2>
+        <h2 className="mb-2 text-5xl lg:text-3xl text-blue">Want to work with me?</h2>
         <p className="mb-7 text-xl">Reach out through this form:</p>
-        <form className="text-xl mx-auto" onSubmit={handleSubmit}>
+        <form className="text-5xl lg:text-xl mx-auto" onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
               type="text"
@@ -80,10 +82,11 @@ export default function Footer() {
           </div>
           <button
             type="submit"
-            className="w-full md:my-6 py-2 text-gray-700 bg-blue rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className="w-full md:my-6 py-2 text-light bg-blue rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
             Submit
           </button>
+          <p className="text-green-600 text-center">{text}</p>
         </form>
       </div>
     </div>
