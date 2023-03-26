@@ -85,7 +85,8 @@ const App = () => {
       {projects.map((project)=>(
         <Card img={project.img}
         title={project.title}
-        desc={project.description}/>
+        desc={project.description}
+        link={project.link}/>
       ))}
     </div>
     </div>

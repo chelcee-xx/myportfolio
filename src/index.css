@@ -7,31 +7,41 @@
 @layer base {
   @font-face {
     font-family: "ClashDisplay";
-    src: url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.woff2") format("woff2"),
-      url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.woff") format("woff"),
-      url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf") format("truetype");
+    src: url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.woff2")
+        format("woff2"),
+      url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.woff")
+        format("woff"),
+      url("./ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf")
+        format("truetype");
     font-weight: 200 700;
     font-display: swap;
     font-style: normal;
   }
 }
 
-.title{
-  @apply font-sans font-bold text-[#3F4756] lg:text-4xl text-7xl mb-8
+.title {
+  @apply font-sans font-bold text-[#3F4756] lg:text-4xl text-7xl mb-8;
+}
+
+.link {
+  @apply text-xl hover:font-medium  px-6;
 }
 
 .link-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-image: linear-gradient(transparent, transparent),
+  linear-gradient(#fff, #fff);
   background-size: 0 3px;
-  background-position: 0 45%;
+  background-position: 50% 45%;
   background-repeat: no-repeat;
-  transition: background-size .5s ease-in-out;
+  transition: background-size 0.5s ease-in-out;
 }
 
-
-
 .link-underline:hover {
-  background-size: 100% 3px;
-  background-position: 45% 45%
+  background-size: 50% 3px;
+  background-position: 45% 45%;
+}
+
+.nav {
+  @apply bg-white text-4xl pl-5 py-4 text-blue font-medium hover:bg-blue hover:text-light;
 }

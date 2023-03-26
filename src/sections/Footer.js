@@ -46,7 +46,7 @@ export default function Footer() {
       <div className="w-full lg:w-1/2 rounded-lg bg-gray-200 font-medium font-sans mb-9 pt-7 pb-5 px-6 md:px-16">
         <h2 className="mb-2 text-5xl lg:text-3xl text-blue">Want to work with me?</h2>
         <p className="mb-7 text-4xl lg:text-xl">Reach out through this form:</p>
-        <form className="text-5xl lg:text-xl font-body mx-auto" onSubmit={handleSubmit}>
+        <form className="text-4xl lg:text-xl font-body mx-auto" onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
               type="text"

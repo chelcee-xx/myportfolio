@@ -3,7 +3,7 @@ import { ReactComponent as Hello } from "../img/hello.svg";
 
 export default function About() {
   return (
-    <div className="flex flex-col px-8 lg:flex-row items-center">
+    <div className="flex items-center flex-col px-8 lg:flex-row">
       <h1 className="title mt-5 lg:hidden">About Me</h1>
       <div className="w-full ">
         <Hello className="w-full" />
