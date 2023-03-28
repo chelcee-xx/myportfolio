@@ -14,7 +14,7 @@ export default function Card(props) {
                 <img
                   src={props.img}
                   alt="project"
-                  className="lg:h-40 h-60 cursor-pointer object-contain w-full"
+                  className="lg:h-40  cursor-pointer object-contain w-full"
                 />
               </a>
             </div>
@@ -25,7 +25,7 @@ export default function Card(props) {
               {props.date}
             </p>
           </div>
-          <p className="font-medium text-[#3F4756] text-4xl lg:text-xl lg:text-justify">
+          <p className="font text-[#3F4756] text-4xl lg:text-xl lg:text-justify">
             {props.desc}
           </p>
         </div>

@@ -75,20 +75,22 @@ const projects = [
 
 const App = () => {
   return (
-    <div>
-    <div className="mb-4 px-20 hidden lg:block">
-      <h1 className="title">My Projects</h1>
-      <Carousel projects={projects} />
-    </div>
-    <div className="visible px-12 lg:hidden">
-    <h1 className="title ml-2">My Projects</h1>
-      {projects.map((project)=>(
-        <Card img={project.img}
-        title={project.title}
-        desc={project.description}
-        link={project.link}/>
-      ))}
-    </div>
+    <div className=" mb-36 lg:mb-4">
+      <div className="mb-4 px-20 hidden lg:block">
+        <h1 className="title">My Projects</h1>
+        <Carousel projects={projects} />
+      </div>
+      <div className="visible px-12 lg:hidden">
+        <h1 className="title ml-2">My Projects</h1>
+        {projects.map((project) => (
+          <Card
+            img={project.img}
+            title={project.title}
+            desc={project.description}
+            link={project.link}
+          />
+        ))}
+      </div>
     </div>
   );
 };

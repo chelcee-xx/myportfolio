@@ -43,13 +43,33 @@ function App() {
             Medeh Chelsea
           </h1>
           <div className="flex gap-x-5 cursor-pointer text-light">
-            <p onClick={() => scrollToSection("about")} className="link link-underline">About me</p>
+            <p
+              onClick={() => scrollToSection("about")}
+              className="link link-underline"
+            >
+              About me
+            </p>
             <p onClick={onButtonClick} className="link link-underline">
               CV
             </p>
-            <p onClick={() => scrollToSection("Skills")} className="link link-underline">Skills</p>
-            <p onClick={() => scrollToSection("Footer")} className="link link-underline">Contact me</p>
-            <p onClick={() => scrollToSection("Contact")} className="link link-underline">Socials</p>
+            <p
+              onClick={() => scrollToSection("Skills")}
+              className="link link-underline"
+            >
+              Skills
+            </p>
+            <p
+              onClick={() => scrollToSection("Footer")}
+              className="link link-underline"
+            >
+              Contact me
+            </p>
+            <p
+              onClick={() => scrollToSection("Contact")}
+              className="link link-underline"
+            >
+              Socials
+            </p>
           </div>
         </nav>
         <nav className="lg:hidden">
@@ -84,16 +104,26 @@ function App() {
             }`}
           >
             <div className="bg-white rounded">
-              <p className="nav" onClick={() => scrollToSection("about")}>About me</p>
-              <p onClick={onButtonClick} className="lg:link nav lg:link-underline">
+              <p className="nav" onClick={() => scrollToSection("about")}>
+                About me
+              </p>
+              <p
+                onClick={onButtonClick}
+                className="lg:link nav lg:link-underline"
+              >
                 CV
               </p>
-              <p className="nav" onClick={() => scrollToSection("Skills")} >Skills</p>
-              <p className="nav" onClick={() => scrollToSection("Footer")}>Contact me</p>
-              <p className="nav" onClick={() => scrollToSection("Contact")}>Socials</p>
+              <p className="nav" onClick={() => scrollToSection("Skills")}>
+                Skills
+              </p>
+              <p className="nav" onClick={() => scrollToSection("Footer")}>
+                Contact me
+              </p>
+              <p className="nav" onClick={() => scrollToSection("Contact")}>
+                Socials
+              </p>
             </div>
           </div>
-         
         </nav>
         <div className="items-center flex flex-col-reverse lg:flex-row">
           <div className="w-full flex items-center flex-col lg:block lg:w-3/5 mr-0 lg:mr-16">
@@ -118,12 +148,23 @@ function App() {
       <section id="about" className="bg-light px-4 lg:px-20 py-12">
         <About />
       </section>
-      <section id="Education"> <Education /></section>
-      <section id="Projects"><Projects /></section>
-      <section id="Skills"> <Skills /></section>
-      <section id="Experience"><Experience /></section>
-      <section id="Footer"> <Footer /></section>
-      <section id="Contact"><Contact /></section>      
+      <section id="Projects">
+        <Projects />
+      </section>
+      <section id="Skills">
+        {" "}
+        <Skills />
+      </section>
+      <section id="Experience">
+        <Experience />
+      </section>
+      <section id="Footer">
+        {" "}
+        <Footer />
+      </section>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 }

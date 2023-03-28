@@ -15,7 +15,7 @@ import bootstrap from "../img/bootstrap.svg";
 
 export default function Skills() {
   return (
-    <div className="lg:px-20  py-12">
+    <div className="lg:px-20  py-12 mb-36 lg:mb-4">
       <h1 className="title lg:ml-0 ml-12">My skills</h1>
       <div className="mt-12 lg:px-12 lg:grid-cols-6 text-center md:grid lg:grid md:grid-cols-3 md:gap-14 gap-8 px-8 lg:gap-12">
         <div className="">
